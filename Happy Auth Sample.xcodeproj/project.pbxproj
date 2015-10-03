@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4010BBBE1BC0643F00F5C25D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4010BBBB1BC0643F00F5C25D /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4010BBBF1BC0643F00F5C25D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4010BBBC1BC0643F00F5C25D /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4010BBC01BC0643F00F5C25D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4010BBBD1BC0643F00F5C25D /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+		401965BF1BC05C4200495116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965BE1BC05C4200495116 /* AppDelegate.swift */; };
+		401965C11BC05C4200495116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965C01BC05C4200495116 /* ViewController.swift */; };
+		401965C41BC05C4200495116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401965C21BC05C4200495116 /* Main.storyboard */; };
+		401965C61BC05C4200495116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401965C51BC05C4200495116 /* Assets.xcassets */; };
+		401965C91BC05C4200495116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401965C71BC05C4200495116 /* LaunchScreen.storyboard */; };
+		401965D41BC05C4200495116 /* Happy_Auth_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965D31BC05C4200495116 /* Happy_Auth_SampleTests.swift */; };
+		401965DF1BC05C4200495116 /* Happy_Auth_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965DE1BC05C4200495116 /* Happy_Auth_SampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401965D01BC05C4200495116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401965B31BC05C4200495116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401965BA1BC05C4200495116;
+			remoteInfo = "Happy Auth Sample";
+		};
+		401965DB1BC05C4200495116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401965B31BC05C4200495116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401965BA1BC05C4200495116;
+			remoteInfo = "Happy Auth Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4010BBB81BC0634200F5C25D /* Happy Auth Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happy Auth Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		4010BBBB1BC0643F00F5C25D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4010BBBC1BC0643F00F5C25D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4010BBBD1BC0643F00F5C25D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		401965BB1BC05C4200495116 /* Happy Auth Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Auth Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401965BE1BC05C4200495116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		401965C01BC05C4200495116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		401965C31BC05C4200495116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		401965C51BC05C4200495116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401965C81BC05C4200495116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		401965CA1BC05C4200495116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401965CF1BC05C4200495116 /* Happy Auth SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Auth SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401965D31BC05C4200495116 /* Happy_Auth_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Auth_SampleTests.swift; sourceTree = "<group>"; };
+		401965D51BC05C4200495116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401965DA1BC05C4200495116 /* Happy Auth SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Auth SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401965DE1BC05C4200495116 /* Happy_Auth_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Auth_SampleUITests.swift; sourceTree = "<group>"; };
+		401965E01BC05C4200495116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401965B81BC05C4200495116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4010BBBF1BC0643F00F5C25D /* FBSDKLoginKit.framework in Frameworks */,
+				4010BBBE1BC0643F00F5C25D /* FBSDKCoreKit.framework in Frameworks */,
+				4010BBC01BC0643F00F5C25D /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965CC1BC05C4200495116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965D71BC05C4200495116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401965B21BC05C4200495116 = {
+			isa = PBXGroup;
+			children = (
+				401965BD1BC05C4200495116 /* Happy Auth Sample */,
+				401965D21BC05C4200495116 /* Happy Auth SampleTests */,
+				401965DD1BC05C4200495116 /* Happy Auth SampleUITests */,
+				401965BC1BC05C4200495116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		401965BC1BC05C4200495116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401965BB1BC05C4200495116 /* Happy Auth Sample.app */,
+				401965CF1BC05C4200495116 /* Happy Auth SampleTests.xctest */,
+				401965DA1BC05C4200495116 /* Happy Auth SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401965BD1BC05C4200495116 /* Happy Auth Sample */ = {
+			isa = PBXGroup;
+			children = (
+				401965EC1BC05F5400495116 /* Frameworks */,
+				401965BE1BC05C4200495116 /* AppDelegate.swift */,
+				401965C01BC05C4200495116 /* ViewController.swift */,
+				401965C21BC05C4200495116 /* Main.storyboard */,
+				401965C51BC05C4200495116 /* Assets.xcassets */,
+				401965C71BC05C4200495116 /* LaunchScreen.storyboard */,
+				401965CA1BC05C4200495116 /* Info.plist */,
+				4010BBB81BC0634200F5C25D /* Happy Auth Sample-Bridging-Header.h */,
+			);
+			path = "Happy Auth Sample";
+			sourceTree = "<group>";
+		};
+		401965D21BC05C4200495116 /* Happy Auth SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				401965D31BC05C4200495116 /* Happy_Auth_SampleTests.swift */,
+				401965D51BC05C4200495116 /* Info.plist */,
+			);
+			path = "Happy Auth SampleTests";
+			sourceTree = "<group>";
+		};
+		401965DD1BC05C4200495116 /* Happy Auth SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				401965DE1BC05C4200495116 /* Happy_Auth_SampleUITests.swift */,
+				401965E01BC05C4200495116 /* Info.plist */,
+			);
+			path = "Happy Auth SampleUITests";
+			sourceTree = "<group>";
+		};
+		401965EC1BC05F5400495116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4010BBBB1BC0643F00F5C25D /* FBSDKCoreKit.framework */,
+				4010BBBC1BC0643F00F5C25D /* FBSDKLoginKit.framework */,
+				4010BBBD1BC0643F00F5C25D /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401965BA1BC05C4200495116 /* Happy Auth Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401965E31BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth Sample" */;
+			buildPhases = (
+				401965B71BC05C4200495116 /* Sources */,
+				401965B81BC05C4200495116 /* Frameworks */,
+				401965B91BC05C4200495116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Auth Sample";
+			productName = "Happy Auth Sample";
+			productReference = 401965BB1BC05C4200495116 /* Happy Auth Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		401965CE1BC05C4200495116 /* Happy Auth SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401965E61BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth SampleTests" */;
+			buildPhases = (
+				401965CB1BC05C4200495116 /* Sources */,
+				401965CC1BC05C4200495116 /* Frameworks */,
+				401965CD1BC05C4200495116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401965D11BC05C4200495116 /* PBXTargetDependency */,
+			);
+			name = "Happy Auth SampleTests";
+			productName = "Happy Auth SampleTests";
+			productReference = 401965CF1BC05C4200495116 /* Happy Auth SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		401965D91BC05C4200495116 /* Happy Auth SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401965E91BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth SampleUITests" */;
+			buildPhases = (
+				401965D61BC05C4200495116 /* Sources */,
+				401965D71BC05C4200495116 /* Frameworks */,
+				401965D81BC05C4200495116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401965DC1BC05C4200495116 /* PBXTargetDependency */,
+			);
+			name = "Happy Auth SampleUITests";
+			productName = "Happy Auth SampleUITests";
+			productReference = 401965DA1BC05C4200495116 /* Happy Auth SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401965B31BC05C4200495116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = donaldmckendrick.com;
+				TargetAttributes = {
+					401965BA1BC05C4200495116 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					401965CE1BC05C4200495116 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 401965BA1BC05C4200495116;
+					};
+					401965D91BC05C4200495116 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 401965BA1BC05C4200495116;
+					};
+				};
+			};
+			buildConfigurationList = 401965B61BC05C4200495116 /* Build configuration list for PBXProject "Happy Auth Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 401965B21BC05C4200495116;
+			productRefGroup = 401965BC1BC05C4200495116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401965BA1BC05C4200495116 /* Happy Auth Sample */,
+				401965CE1BC05C4200495116 /* Happy Auth SampleTests */,
+				401965D91BC05C4200495116 /* Happy Auth SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401965B91BC05C4200495116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401965C91BC05C4200495116 /* LaunchScreen.storyboard in Resources */,
+				401965C61BC05C4200495116 /* Assets.xcassets in Resources */,
+				401965C41BC05C4200495116 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965CD1BC05C4200495116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965D81BC05C4200495116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401965B71BC05C4200495116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401965C11BC05C4200495116 /* ViewController.swift in Sources */,
+				401965BF1BC05C4200495116 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965CB1BC05C4200495116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401965D41BC05C4200495116 /* Happy_Auth_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401965D61BC05C4200495116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401965DF1BC05C4200495116 /* Happy_Auth_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401965D11BC05C4200495116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401965BA1BC05C4200495116 /* Happy Auth Sample */;
+			targetProxy = 401965D01BC05C4200495116 /* PBXContainerItemProxy */;
+		};
+		401965DC1BC05C4200495116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401965BA1BC05C4200495116 /* Happy Auth Sample */;
+			targetProxy = 401965DB1BC05C4200495116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		401965C21BC05C4200495116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401965C31BC05C4200495116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		401965C71BC05C4200495116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401965C81BC05C4200495116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		401965E11BC05C4200495116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		401965E21BC05C4200495116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401965E41BC05C4200495116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Happy",
+					Auth,
+					Sample,
+				);
+				INFOPLIST_FILE = "Happy Auth Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Happy Auth Sample/Happy Auth Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		401965E51BC05C4200495116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Happy",
+					Auth,
+					Sample,
+				);
+				INFOPLIST_FILE = "Happy Auth Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Happy Auth Sample/Happy Auth Sample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		401965E71BC05C4200495116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy Auth SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Auth Sample.app/Happy Auth Sample";
+			};
+			name = Debug;
+		};
+		401965E81BC05C4200495116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy Auth SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Auth Sample.app/Happy Auth Sample";
+			};
+			name = Release;
+		};
+		401965EA1BC05C4200495116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy Auth SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Auth Sample";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		401965EB1BC05C4200495116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy Auth SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldmckendrick.Happy-Auth-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Auth Sample";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401965B61BC05C4200495116 /* Build configuration list for PBXProject "Happy Auth Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401965E11BC05C4200495116 /* Debug */,
+				401965E21BC05C4200495116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401965E31BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401965E41BC05C4200495116 /* Debug */,
+				401965E51BC05C4200495116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401965E61BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401965E71BC05C4200495116 /* Debug */,
+				401965E81BC05C4200495116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401965E91BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401965EA1BC05C4200495116 /* Debug */,
+				401965EB1BC05C4200495116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401965B31BC05C4200495116 /* Project object */;
+}
