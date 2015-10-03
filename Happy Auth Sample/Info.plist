@@ -59,7 +59,17 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>facebook.com</key>
+      <key>127.0.0.1</key>
+      <dict>
+        <key>NSExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+      </dict>
+      <key>localhost</key>
+      <dict>
+        <key>NSExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+      </dict>
+      <key>facebook.com</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>

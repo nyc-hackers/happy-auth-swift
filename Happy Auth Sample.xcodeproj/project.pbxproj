@@ -17,6 +17,10 @@
 		401965C91BC05C4200495116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401965C71BC05C4200495116 /* LaunchScreen.storyboard */; };
 		401965D41BC05C4200495116 /* Happy_Auth_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965D31BC05C4200495116 /* Happy_Auth_SampleTests.swift */; };
 		401965DF1BC05C4200495116 /* Happy_Auth_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401965DE1BC05C4200495116 /* Happy_Auth_SampleUITests.swift */; };
+		406A8DFA1BC07A3900483576 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406A8DF71BC07A3900483576 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		406A8DFB1BC07A3900483576 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406A8DF81BC07A3900483576 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		406A8DFC1BC07A3900483576 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406A8DF91BC07A3900483576 /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+		A9EDDAC25145505859D597CD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78303FC4384F66246A4678B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,12 @@
 		401965DA1BC05C4200495116 /* Happy Auth SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy Auth SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401965DE1BC05C4200495116 /* Happy_Auth_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Auth_SampleUITests.swift; sourceTree = "<group>"; };
 		401965E01BC05C4200495116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406A8DF71BC07A3900483576 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		406A8DF81BC07A3900483576 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		406A8DF91BC07A3900483576 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		87BE53E89DE204F5390C829A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A78303FC4384F66246A4678B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A3BC22F59C6A0540549D6B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406A8DFA1BC07A3900483576 /* FBSDKCoreKit.framework in Frameworks */,
 				4010BBBF1BC0643F00F5C25D /* FBSDKLoginKit.framework in Frameworks */,
+				406A8DFB1BC07A3900483576 /* FBSDKLoginKit.framework in Frameworks */,
+				406A8DFC1BC07A3900483576 /* FBSDKShareKit.framework in Frameworks */,
 				4010BBBE1BC0643F00F5C25D /* FBSDKCoreKit.framework in Frameworks */,
 				4010BBC01BC0643F00F5C25D /* FBSDKShareKit.framework in Frameworks */,
+				A9EDDAC25145505859D597CD /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,8 @@
 				401965D21BC05C4200495116 /* Happy Auth SampleTests */,
 				401965DD1BC05C4200495116 /* Happy Auth SampleUITests */,
 				401965BC1BC05C4200495116 /* Products */,
+				F09EFDA8EC0E1720EE9BB4F7 /* Pods */,
+				F80973C66C6C6DF40FCDAA17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +163,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F09EFDA8EC0E1720EE9BB4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A3BC22F59C6A0540549D6B /* Pods.debug.xcconfig */,
+				87BE53E89DE204F5390C829A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F80973C66C6C6DF40FCDAA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406A8DF71BC07A3900483576 /* FBSDKCoreKit.framework */,
+				406A8DF81BC07A3900483576 /* FBSDKLoginKit.framework */,
+				406A8DF91BC07A3900483576 /* FBSDKShareKit.framework */,
+				A78303FC4384F66246A4678B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 401965E31BC05C4200495116 /* Build configuration list for PBXNativeTarget "Happy Auth Sample" */;
 			buildPhases = (
+				D3F96395A1BF4154744E2085 /* Check Pods Manifest.lock */,
 				401965B71BC05C4200495116 /* Sources */,
 				401965B81BC05C4200495116 /* Frameworks */,
 				401965B91BC05C4200495116 /* Resources */,
+				7B2743039043E1188762741C /* Embed Pods Frameworks */,
+				158476E5D9CAF79BA29D5774 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +311,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		158476E5D9CAF79BA29D5774 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2743039043E1188762741C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F96395A1BF4154744E2085 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		401965B71BC05C4200495116 /* Sources */ = {
@@ -417,6 +504,7 @@
 		};
 		401965E41BC05C4200495116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A3BC22F59C6A0540549D6B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -425,6 +513,7 @@
 					"$(PROJECT_DIR)/Happy",
 					Auth,
 					Sample,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Happy Auth Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +526,7 @@
 		};
 		401965E51BC05C4200495116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BE53E89DE204F5390C829A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -445,6 +535,7 @@
 					"$(PROJECT_DIR)/Happy",
 					Auth,
 					Sample,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Happy Auth Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

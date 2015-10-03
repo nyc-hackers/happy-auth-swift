@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 let facebookLogin = FBSDKLoginManager()
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
@@ -52,7 +53,20 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
   
   func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
     print("User Logged In")
-    print(result)
+    print(FBSDKAccessToken.currentAccessToken().tokenString)
+    
+    Alamofire.request(.GET, "http://localhost:3000/omniauth/facebook/callback.json")
+      .responseJSON { response in
+        print(response)
+//        print(response.request)  // original URL request
+//        print(response.response) // URL response
+//        print(response.data)     // server data
+//        print(response.result)   // result of response serialization
+//        
+//        if let JSON = response.result.value {
+//          print("JSON: \(JSON)")
+//        }
+    }
     
   }
   
